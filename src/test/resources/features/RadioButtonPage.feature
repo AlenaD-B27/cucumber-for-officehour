@@ -1,4 +1,4 @@
-@wip
+@smoke
 Feature: This is about Radio Button page functionality
 
 
