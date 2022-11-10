@@ -11,13 +11,12 @@ import org.junit.runner.RunWith;
         plugin = {
                 "json:target/cucumber.json" ,
                 "html:target/cucumber-report.html",
-                "rerun:target/rerun.txt" ,
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "rerun:target/rerun.txt"
         },
         glue = "com/cydeo/step_definitions",
         features = "src/test/resources/features",
-        tags = "@wip",
-        dryRun = false
+        tags = "@us_03",
+        dryRun = true
 
 
 
